@@ -32,3 +32,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
+
+$(call inherit-product-if-exists, vendor/nexus/prebuilt/prebuilt.mk)
