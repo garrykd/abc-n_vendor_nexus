@@ -24,7 +24,7 @@ PRODUCT_PACKAGES += \
 # Custom Packages
 PRODUCT_PACKAGES += \
     Busybox \
-    masquerade
+    ThemeInterfacer
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
